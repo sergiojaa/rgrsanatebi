@@ -1,0 +1,122 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.orive img{
+    height: 44px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.rgr-logo img{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+.input-div input{
+    width: 40rem;
+    height: 44px;
+    font-size: 30px;
+    color: orangered;
+   border: 1px solid orangered;
+    border-radius: 20px;
+    margin-left: 3rem;
+}
+.input-div input::placeholder{
+    color: orangered;
+}
+
+.lukasnomeri{
+    color: orangered;
+    font-size: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.thumbparent{
+    border: 1px solid #EEE;
+    width: 300px;
+    border-radius: 10px;
+    max-width: max-content;
+    cursor: pointer;
+    margin: 10px;
+    background-color:#EEE;
+    
+}
+.thumbparent img{
+   width: 100%;
+   height: auto;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.son-section{
+    display: flex;
+    justify-content: space-around;
+}
+.fas{
+    padding-left: 20px;
+    color: #777;
+}
+.avt{
+    color:#777;
+    padding-left: 20px;
+}
+.thumbparent:hover{
+    .avt{
+        color: white;
+    }
+    .fas{
+        color: white;
+    }
+   
+    background-color: orangered;
+}
+
+.avt:hover{
+    color: white;
+}
+/* section */
+.list a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    font-size: 20px;
+    color: #777;
+    padding-top: 5px;
+    border: 1px solid #777;
+    max-width: 13rem;
+    
+
+}
+.list a:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.3s;
+}
+.kategori{
+    margin-left: 10rem;
+    border: 1px solid orangered;
+    max-width: 15rem;
+}
+.kategoria{
+    font-size: 2rem;
+}
+.sanatebi{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+/* diodurisanatebi */
+.diodchamonson{
+    display: flex;
+}
+.diodurimtavari{
+    display: flex;
+    justify-content: center;
+}
