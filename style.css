@@ -120,3 +120,43 @@
     display: flex;
     justify-content: center;
 }
+.diodimg{
+    height: 30rem;
+    cursor: pointer;
+}
+.diodchamonmtav  {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dzabva{
+    margin-left: 10px;
+}
+.mush{
+    margin-top: -21px;
+}
+table tr td{
+    padding: 4px 5px;
+}
+.custom td{
+    white-space: nowrap;
+}
+.parentofvats{
+    display: flex;
+}
+.ocivatibox{
+    border: 1px solid black;
+}
+.fiftivatibox{
+    border: 1px solid black;
+}
+.sonoffifti{
+    margin: 1rem 1rem;
+    cursor: pointer;
+}
+.sonofoci{
+    margin: 1rem 1rem;
+    cursor: pointer;
+}
+.fiftivatibox{
+    margin-left: 1rem;
+}
